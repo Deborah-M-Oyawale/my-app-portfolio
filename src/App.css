@@ -1,0 +1,193 @@
+.name{
+    font-size: 70px;
+    padding: 70px 35px 70px 65px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0px 0 0 -250px;
+    border-radius: 170px;
+    background-color:#373b40;
+    line-height: 1.2;
+    width: 480px;
+    align-self: center;
+
+}
+
+nav li a:hover{
+    color: #68e0cf;
+}
+
+.background-image{
+    background-image: url(./assets/bg-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:rgb(0, 128, 128);
+    float: left;
+    background-position:0;
+    height: 100vh; 
+     width: 100%;
+    
+}
+
+.background-image img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 0;
+    /* object-fit: cover; */
+}
+
+.overlay{
+    width: 100%;
+      height: 100%;
+      background-position: 0;
+      position: relative;
+      top: -1.rem;
+      left: 0;
+      background-color: rgb(9, 135, 135, 0.4);
+}
+
+.contactButton{
+    padding: 15px 15px;
+    border-radius: 70px;
+    outline: none;
+    border: 1px solid #808080 ;
+    background: #585d65;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.date{
+    writing-mode: vertical-lr;
+    color: #68e0cf;
+    text-orientation: mixed;
+}
+
+.coding-skill-circle{
+    width: 100px;
+      height: 100px;
+      display: flex;
+      border: 2px solid #68e0cf;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+}
+
+.images-of-partners{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    gap: 20px;
+    color: #585d65;
+}
+
+.label-border{
+    border: 1px solid #585d65 ;
+    background: none;  
+    margin-bottom: 150px;
+    padding: 15px 30px 30px 30px;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.text-label-border{
+    border: 1px solid #585d65 ;
+    background: none;  
+    margin-bottom: 100px;
+    padding: 10px 20px 30px 20px;
+    border-radius: 40px;
+    position: absolute;
+    height: 200px;
+}
+
+/* .send{
+    padding-bottom: 10px;
+} */
+.text-in {
+    position: relative;
+    padding-bottom: 40px;
+}
+.authors-role{
+    padding-bottom: 20px;
+}
+.label-text {
+    position: relative;
+    top: 11px;
+    left: 45px;
+    background: #373b40;
+    z-index: 1;
+}
+
+.contact-wrapper button{
+    padding: 15px 25px;
+    border-radius: 80px;
+    outline: none;
+    border: 1px solid #808080 ;
+    background: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.signature{
+    padding-top: 35px;
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.authors-information{
+    border: 1px solid #585d65;
+    width: 50%;
+    line-height: 40px;
+    padding: 30px 20px 70px 20px;
+    max-height: 515px;
+    border-radius: 30px;
+    position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .background-image{
+       display:none
+        
+    }
+    .contactButton{
+        padding: 10px 10px;
+        border-radius: 70px;
+        outline: none;
+        border: 1px solid #808080 ;
+        background: #585d65;
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        margin-left: 40px;
+    }
+    .coding-skill-circle{
+        width: 100px;
+          height: 100px;
+          display: flex;
+          border: 2px solid #68e0cf;
+          border-radius: 50%;
+          justify-content: center;
+          align-items: center;
+          margin-top: 50px;
+    }
+    
+    .images-of-partners{
+        display: flex;
+        width: 150px;
+        height: 100px;
+        gap: 20px;
+        color: #585d65;
+    }
+}
